@@ -152,3 +152,19 @@ function add(num1, num2) {
 
 // Example usages:
 console.log(add("63829983432984289347293874", "90938498237058927340892374089"));
+//https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1
+function getAge(inputString) {
+  return Number([...inputString][0]);
+}
+//https://www.codewars.com/kata/582cb0224e56e068d800003c/train/javascript
+function litres(time) {
+  return Math.trunc(time * 0.5);
+}
+//https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad
+function invert(array) {
+  const result = [];
+  array.forEach((value, index, array) => {
+    result.push(value * -1);
+  });
+  return result;
+}
